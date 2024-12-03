@@ -51,6 +51,7 @@ assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 
 **RTL**
+
 f1
 
 ![exp2 f1](https://github.com/user-attachments/assets/9d4a3525-bf91-45d1-87ab-c0af294fed15)
