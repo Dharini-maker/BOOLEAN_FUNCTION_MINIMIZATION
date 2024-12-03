@@ -32,18 +32,19 @@ Boolean Algebra is a branch of algebra that deals with boolean values—true and
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+ Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:24002206
+Developed by:S.Dharini
+RegisterNumber:24002206
 
-i)
+i)f1
 module funct1(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
 endmodule
 
-ii)
+ii)f2
 module funct2(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
